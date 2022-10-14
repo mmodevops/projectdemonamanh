@@ -2,10 +2,11 @@
   "name": "6565656",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node --inspect src/server.js",
+    "web":"npm start"
   },
   "repository": {
     "type": "git",
