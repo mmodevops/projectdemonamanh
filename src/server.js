@@ -20,5 +20,9 @@ app.get('/', (req, res) => {
   res.render('home');
 })
 
-app.listen(process.env.PORT, function() {
+// app.listen(process.env.PORT, function() {
+// });
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log("Server is running http://localhost:3000");
 });
